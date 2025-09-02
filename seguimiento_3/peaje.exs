@@ -9,7 +9,8 @@ defmodule Peaje do
   Proporciona funcionalidades para registrar vehículos y calcular tarifas automáticamente.
   """
   @doc """
-  Registrar un vehículo en el sistema de peaje y calcula su tarifa.
+  Registra un vehículo en el sistema de peaje y calcula su tarifa.
+
   Solicita al usuario:
   - Placa del vehículo
   - Tipo de vehículo
@@ -19,7 +20,8 @@ defmodule Peaje do
 
   ## Returns
     Tupla con la forma `{placa, tipo, tarifa_final}` conteniendo los datos del registro.
-    """
+
+  """
 
   def registrar do
     placa = Util.input("Ingrese la placa del vehículo", :string)
