@@ -1,7 +1,7 @@
 defmodule Temperatura do
   @moduledoc """
   Módulo para conversión de temperaturas entre escalas.
-"""|
+"""
  @doc """
   Realiza conversión de temperatura entre escalas termométricas.
 
